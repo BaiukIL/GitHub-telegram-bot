@@ -1,4 +1,4 @@
-"""This bot gets info about most stared repositories' languages."""
+"""This bot gets info about most stared repositories' languages"""
 
 
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, InlineQueryHandler

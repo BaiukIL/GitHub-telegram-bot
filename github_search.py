@@ -7,7 +7,7 @@ import my_repo
 import operator
 from typing import Dict
 
-# exception caught in search() function
+# exception caught in search function
 from requests.exceptions import ConnectionError
 
 
