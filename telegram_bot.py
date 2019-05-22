@@ -88,6 +88,7 @@ if __name__ == '__main__':
     unknown_message_handler = MessageHandler(Filters.text, unknown_message)
     dispatcher.add_handler(unknown_message_handler)
 
+    continuous_search = github_search.multiprocessing.Process(target=github_search.search)
     updater.start_polling()
 
     # start Process of searching repo-s
